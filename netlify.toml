@@ -1,3 +1,7 @@
+[build]
+	publish = "_site"
+	command = "npm run build"
+
 [[plugins]]
 
 	# Opt-in to the Netlify Lighthouse plugin (choose one):
