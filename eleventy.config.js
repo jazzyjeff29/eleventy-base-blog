@@ -108,6 +108,7 @@ module.exports = function(eleventyConfig) {
 			"njk",
 			"html",
 			"liquid",
+			"png",
 		],
 
 		// Pre-process *.md files with: (default: `liquid`)
