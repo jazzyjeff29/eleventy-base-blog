@@ -24,3 +24,6 @@ Capitalize on low hanging fruit to identify a ballpark value added activity to b
  // Test with a line break above this line.
  console.log('Test');
 ```
+  <footer>
+    <p><em>&copy; 2024 JS Ltd</em></p>
+  </footer>

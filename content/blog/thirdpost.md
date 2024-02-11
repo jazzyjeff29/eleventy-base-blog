@@ -43,3 +43,7 @@ console.log('Test');
 ## Section Header
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+
+  <footer>
+    <p><em>&copy; 2024 JS Ltd</em></p>
+  </footer>

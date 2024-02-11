@@ -42,6 +42,10 @@ Please feel free to contact me on my socials or via the contact form below (comi
       <input type="button" value="Submit"/>
   </form>
 
+  <footer>
+    <p><em>&copy; 2024 JS Ltd</em></p>
+  </footer>
+
   <script>
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {

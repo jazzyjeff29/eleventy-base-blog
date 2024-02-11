@@ -7,3 +7,7 @@ eleventyNavigation:
 # About Me
 
 I am a person that writes stuff.
+
+  <footer>
+    <p><em>&copy; 2024 JS Ltd</em></p>
+  </footer>
