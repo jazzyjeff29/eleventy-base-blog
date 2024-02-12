@@ -6,26 +6,26 @@ eleventyNavigation:
 ---
 # Contact Me
 
-Please feel free to contact me on my socials or via the contact form below (coming soon).
+Please feel free to contact me on my socials or via the contact form below.
 
 <form name="contact" method="POST" data-netlify="true" class="needs-validation" enctype="multipart/form-data" novalidate>
   <div class="form-row">
     <div class="col-md-4 mb-3">
-      <label for="validationCustom01">First name</label>
+      <label for="validationCustom01">First name:</label>
       <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-4 mb-3">
-      <label for="validationCustom02">Surname </label>
+      <label for="validationCustom02">Surname:</label>
       <input type="text" class="form-control" id="validationCustom02" placeholder="Surname" value="" required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-4 mb-3">
-      <label for="validationCustomUsername">Email</label>
+      <label for="validationCustomUsername">Email:</label>
       <div class="input-group">
         <div class="input-group-prepend">
 </span>
@@ -39,8 +39,8 @@ Please feel free to contact me on my socials or via the contact form below (comi
   </div>
   <div class="form-row">
     <div class="col-md-6 mb-3">
-      <label for="validationCustom03">Message</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="Message" required>
+      <label for="validationCustom03">Message:</label>
+      <textarea class="form-control" id="validationCustom03" placeholder="Message" required></textarea>
       <div class="invalid-feedback">
         Please enter your query.
       </div>
