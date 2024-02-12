@@ -8,39 +8,57 @@ eleventyNavigation:
 
 Please feel free to contact me on my socials or via the contact form below (coming soon).
 
- <form class="needs-validation" novalidate>
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Surname </label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Surname" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+</span>
+        </div>
+        <input type="email" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please enter an email.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Message</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="Message" required>
+      <div class="invalid-feedback">
+        Please enter your query.
+      </div>
+    </div>
+  </div>
   <div class="form-group">
-    <label for="fName">First Name:</label><br>
-    <input type="text" class="form-control" id="fName" placeholder="First Name" required/><br>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    <label for="sName">Surname:</label><br>
-    <input type="text" class="form-control" id="sName" placeholder="Last Name" required/><br>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    <label for="email">Email:</label><br>
-    <input type="text" class="form-control" id="email" placeholder="name@example.com" required/><br>
-      <div class="invalid-feedback">
-        Please provide a valid email.
-      </div>
-    <label for="message">Message:</label><br>
-    <textarea id="message" class="form-control" name="message " row="4" cols="50" placeholder="Message" required></textarea><br>
-      <div class="invalid-feedback">
-        Please provide a valid message.
-      </div>
-    <div class="form-group">
-      <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="tandc" name="tandc" value="tnc" required>
-      <label class="form-check-label" for="tandc"> Terms and conditions</label><br>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Terms and conditions
+      </label>
       <div class="invalid-feedback">
         You must agree before submitting.
       </div>
     </div>
   </div>
-      <input type="button" value="Submit"/>
-  </form>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
 
   <footer>
     <p><em>&copy; 2024 JS Ltd</em></p>
