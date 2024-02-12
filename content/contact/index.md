@@ -8,7 +8,7 @@ eleventyNavigation:
 
 Please feel free to contact me on my socials or via the contact form below.
 
-<form name="contact" method="POST" action="#" data-netlify="true" class="needs-validation" enctype="multipart/form-data" novalidate>
+<form name="contact"  data-netlify="true" class="needs-validation" enctype="multipart/form-data" novalidate>
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationCustom01">First name:</label>
