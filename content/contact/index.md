@@ -8,18 +8,18 @@ eleventyNavigation:
 
 Please feel free to contact me on my socials or via the contact form below (coming soon).
 
-<form class="needs-validation" novalidate>
+<form name="contact" method="POST" data-netlify="true" class="needs-validation" enctype="multipart/form-data" novalidate>
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationCustom01">First name</label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <label for="validationCustom02">Surname </label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="Surname" value="Otto" required>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Surname" value="" required>
       <div class="valid-feedback">
         Looks good!
       </div>
