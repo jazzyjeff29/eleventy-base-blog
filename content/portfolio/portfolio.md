@@ -17,7 +17,7 @@ eleventyNavigation:
         <img src="https://live.staticflickr.com/65535/53542414734_99a2e8b1c5_b.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="https://live.staticflickr.com/65535/53541212647_6c3c03fc48_b.jpg" class="d-block w-100" alt="..." width="720">
+        <img src="https://live.staticflickr.com/65535/53541212647_6c3c03fc48_b.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
